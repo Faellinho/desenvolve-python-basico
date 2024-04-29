@@ -1,42 +1,42 @@
-# # Pergunta para descobrir o comprimento e largura do terreno.
-# comprimento = int(input("qual o comprimento do terreno"))
-# largura = int(input("qual a largura do terreno"))
+# Pergunta para descobrir o comprimento e largura do terreno.
+comprimento = int(input("qual o comprimento do terreno"))
+largura = int(input("qual a largura do terreno"))
 
 # # Formula da área.
-# area_m2 = comprimento * largura
+area_m2 = comprimento * largura
 
 # # divisão do preço do terreno pelo tamanho em m2 para definir o preço de cada metro quadrado.
-# preco_m2 =  512490.50 / 250
+preco_m2 =  512490.50 / 250
 
 # # Formula usando a constante do preço de cada m2 pelo tamanho dito pela pessoa, seguiiodo da impressão do valor.
-# preco_total = preco_m2 * area_m2
-# print (preco_total)
+preco_total = preco_m2 * area_m2
+print (preco_total)
 
 # # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # # Pergunta ao usuario qual será a temperatura a ser convertida
-# F = int(input("Qual a temperatura em Fahrenheit: "))
+F = int(input("Qual a temperatura em Fahrenheit: "))
 # # Formula para conversão
-# C = (F - 32) * (5/9)
+C = (F - 32) * (5/9)
 # # Impressão do resultado
-# print(f"Essa é a temperatura em Celcius: {C}")
+print(f"Essa é a temperatura em Celcius: {C}")
 
 # # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # # Sequencia de perguntas
-# p1 = input("Digite o nome do produto 1: ")
-# pr1 = int(input("Digite o valor do produto 1: "))
-# q1 = int(input("Digite a quantidade do produto 1: "))
-# p2 = input("Digite o nome do produto 2: ")
-# pr2 = int(input("Digite o valor do produto 2: "))
-# q2 = int(input("Digite a quantidade do produto 2: "))
-# p3 = input("Digite o nome do produto 3: ")
-# pr3 = int(input("Digite o valor do produto 3: "))
-# q3 = int(input("Digite a quantidade do produto 3: "))
+p1 = input("Digite o nome do produto 1: ")
+pr1 = int(input("Digite o valor do produto 1: "))
+q1 = int(input("Digite a quantidade do produto 1: "))
+p2 = input("Digite o nome do produto 2: ")
+pr2 = int(input("Digite o valor do produto 2: "))
+q2 = int(input("Digite a quantidade do produto 2: "))
+p3 = input("Digite o nome do produto 3: ")
+pr3 = int(input("Digite o valor do produto 3: "))
+q3 = int(input("Digite a quantidade do produto 3: "))
 
 # # Soma do valor total e impressão do resultado
-# valor_total = (pr1*q1)+(pr2*q2)+(pr3*q3)
-# print (f"Total: R${valor_total}")
+valor_total = (pr1*q1)+(pr2*q2)+(pr3*q3)
+print (f"Total: R${valor_total}")
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
